@@ -18,20 +18,19 @@ body {
 
 section {
     width: 250px;
-    height: 500px;
+    height: 520px;
     background-color: white;
     margin: auto;
     margin-top: 200px;
-    border-radius: 15px;
+    border-radius: 20px;
 }
 
 div#img {
     background-image: url("../imagens/login.jpg");
     width: 250px;
     height: 200px;
-    background-position: right top;
+    background-position: center top;
     background-repeat: no-repeat;
-    background-attachment: fixed;
     border-radius: 15px 15px 0px 0px;
 }
 
@@ -51,20 +50,54 @@ div#formulario > p {
 }  
 
 div.box {
+    position: relative;
     background-color: #5f2c82;
     width: 92%;
     margin: auto;
     margin-top: 5px;
-    border-radius: 5px;
+    border-radius: 10px;
 }
 
 span.material-symbols-outlined {
-    width: 20px;
+    position: absolute;
+    top: 5px;
+    left: 10px;
     color: white;
-    padding: 5px 0px 0px 5px;
+    font-size: 2em;
 }
 
-input {
-    padding: 8px 0px;
+div input {
+    width: 169px;
+    background-color: #94CFCD;
+    padding:13px 0px 8px 5px;
+    margin: 2px 0px 2px 53px;
+    border: 0px;
+    border-radius: 9px;
+    font-size: 15px;
+}
+
+input#botao {
+    background-color: #53AAA7;
+    width: 92%;
+    margin: auto;
+    margin: 5px 0px 17px 10px;
+    border: 0px;
+    border-radius: 5px;
+}
+
+input#botao:hover {
+    background-color: #2D6462;
+}
+
+a {
+    color: rgba(0, 0, 0, 0.671);
+    border: 1px solid #53AAA7;
+    padding: 10px 55px;
+    margin-left: 10px;
     border-radius: 8px;
+    text-decoration: none;
+}
+
+a:hover {
+   background-color: #6CD3CF;
 }

@@ -1,2 +1,42 @@
 @charset "UTF-8";
 
+@media (min-width: 768px) {
+    body {
+        background-image: linear-gradient(to bottom,  #5f2c82, #49a09d);
+        height: 67vh;
+    }
+
+    section {
+        display: flex;
+        margin-top: 300px;
+        width: 700px;
+        height: 280px;
+    }
+
+    div#img {
+        width: 290px;
+        height: 280px;
+        border-radius: 15px 0px 0px 15px;
+    }
+
+    div.box {
+        width: 97%;
+    }
+
+    div input {
+        width: 87%;
+    }
+
+    input#botao {
+        width: 96%;
+    }
+
+    a {
+        padding: 10px 173px;
+        margin-bottom: 10px;
+    }
+}
+
+@media (min-width: 1024px) {
+    
+}
