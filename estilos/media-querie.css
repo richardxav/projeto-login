@@ -38,5 +38,29 @@
 }
 
 @media (min-width: 1024px) {
-    
+    section {
+        width: 950px;
+        height: 350px;
+    }
+
+    div#img {
+        width: 475px;
+        height: 350px;
+    }
+
+    div#formulario {
+        width: 475px;
+    }
+
+    div#formulario h1 {
+        font-size: 2em;
+    }
+
+    div#formulario p {
+        font-size: 1em;
+    }
+
+    a {
+        padding: 10px 168px;
+    }
 }

@@ -78,6 +78,7 @@ div input {
 
 input#botao {
     background-color: #53AAA7;
+    color: white;
     width: 92%;
     margin: auto;
     margin: 5px 0px 17px 10px;
